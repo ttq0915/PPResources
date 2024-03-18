@@ -12,6 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _BLINNPHONG
   - _CELLBANDSHADING
   - _RECEIVE_SHADOWS_OFF
   - _RENDERENVSETTING
@@ -119,7 +120,7 @@ Material:
     - _enum_diffuse: 2
     - _enum_env: 1
     - _enum_rim: 0
-    - _enum_specular: 0
+    - _enum_specular: 3
     - _group: 0
     - _group1: 1
     - _groupAdditionLight: 1
