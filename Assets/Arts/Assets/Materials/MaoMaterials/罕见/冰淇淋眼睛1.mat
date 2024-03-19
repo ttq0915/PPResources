@@ -20,8 +20,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_SG_No UV flower-eyes 6
-  m_Shader: {fileID: -6465566751694194690, guid: 0a0b6fa4cb0a5456b8a67ca5fbf92135, type: 3}
+  m_Name: "\u51B0\u6DC7\u6DCB\u773C\u775B1"
+  m_Shader: {fileID: -6465566751694194690, guid: 0a0b6fa4cb0a5456b8a67ca5fbf92135,
+    type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -83,8 +84,11 @@ Material:
     - _In_Line_Color: {r: 0.3679245, g: 0.19922866, b: 0.17875579, a: 1}
     - _In_Line_SmoMin_max_FresnelPower_Fresnel_Scale_1: {r: 0, g: 0, b: 0, a: 0}
     - _Main_Color: {r: 1, g: 1, b: 1, a: 0}
-    - _Vertex_Mask_SmoMin_max_FresnelPower_Fresnel_Scale: {r: 0.63, g: 0.29, b: 0.155, a: 0.25}
-    - _Vertex_Mask_down_SmoMin_max_FresnelPower_Fresnel_Scale: {r: -9.7, g: 13.8, b: -0.09, a: 0}
-    - _Vertex_Mask_up_SmoMin_max_FresnelPower_Fresnel_Scale_1: {r: 2.59, g: -2.31, b: 0.15, a: 0}
+    - _Vertex_Mask_SmoMin_max_FresnelPower_Fresnel_Scale: {r: 0.63, g: 0.29, b: 0.155,
+        a: 0.25}
+    - _Vertex_Mask_down_SmoMin_max_FresnelPower_Fresnel_Scale: {r: -9.7, g: 13.8,
+        b: -0.09, a: 0}
+    - _Vertex_Mask_up_SmoMin_max_FresnelPower_Fresnel_Scale_1: {r: 2.59, g: -2.31,
+        b: 0.15, a: 0}
     - _Vertex_Y_Mask_SmoMin_max_FresnelPower_Fresnel_Scale: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

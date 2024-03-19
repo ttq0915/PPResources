@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2198922373874449528
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,12 +20,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GalaxyMaterial_12
+  m_Name: "\u661F\u7A7A2"
   m_Shader: {fileID: -6465566751694194690, guid: eccc0934a4c2a0b499270ffed865aefc,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _DARKCLOUDSENABLED_ON
   - _RIMENABLED_ON
   - _RIMNOISECAENABLED_ON
   m_InvalidKeywords:
@@ -33,7 +47,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CloudsRamp:
-        m_Texture: {fileID: 2800000, guid: 6f30dac5ca0eb004cada97d25c2cedf0, type: 3}
+        m_Texture: {fileID: 2800000, guid: f6a2bbc30dc158c4abe2f66514b8d4cd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CloudsTexture:
@@ -89,11 +103,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RimNoiseDistortionTexture:
-        m_Texture: {fileID: 2800000, guid: d594caf59c864e80bc13dcda43fc39fb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7d5f6337ffe5dfa4c99c39298646caae, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RimNoiseTexture:
-        m_Texture: {fileID: 2800000, guid: d594caf59c864e80bc13dcda43fc39fb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 57535fb8629b4c6eb8530d7d3664d59f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RimRamp:
@@ -186,8 +200,8 @@ Material:
     - _CloudOpacityExp: 2
     - _CloudsEmissionPower: 10
     - _CloudsOpacityExp: 1
-    - _CloudsOpacityPower: 0
-    - _CloudsRampOffsetExp: 1
+    - _CloudsOpacityPower: 1
+    - _CloudsRampOffsetExp: 2
     - _CloudsRampOffsetExp2: 1
     - _CloudsRampOffsetMultiply: 1
     - _CloudsRampTilingMultiply: 1
@@ -195,7 +209,7 @@ Material:
     - _CometsDistortionAmount: 1
     - _CometsRotationSpeed: -0.1
     - _Cutoff: 0.5
-    - _DARKCLOUDSENABLED: 0
+    - _DARKCLOUDSENABLED: 1
     - _DarkCloudsEdgesGlowClamp: 4
     - _DarkCloudsEdgesGlowExp: 1
     - _DarkCloudsEdgesGlowGB: 0
@@ -209,10 +223,10 @@ Material:
     - _DistortionExp: 1
     - _DistortionExp2: 1
     - _DstBlend: 0
-    - _Eta: -0.25
-    - _EtaAAEdgesFix: 0.25
+    - _Eta: -0.1
+    - _EtaAAEdgesFix: 0
     - _EtaEdgesFix: 0
-    - _EtaFresnelExp: 2
+    - _EtaFresnelExp: 3
     - _EtaFresnelExp2: 1
     - _Exp: 4
     - _FinalPower: 1
@@ -269,12 +283,12 @@ Material:
     - _RefractionExp2: 1
     - _RefractionIOR: 1.5
     - _RefrectionCASecondMode: 1
-    - _RimAddOrMultiply: 0
+    - _RimAddOrMultiply: 0.404
     - _RimEmissionPower: 2
     - _RimExp: 4
     - _RimExp2: 2
-    - _RimNoiseAmount: -0.75
-    - _RimNoiseCAAmount: 0.1
+    - _RimNoiseAmount: 0.75
+    - _RimNoiseCAAmount: 0.05
     - _RimNoiseCARimMaskExp: 4
     - _RimNoiseCAU: 1
     - _RimNoiseCAV: 0
@@ -282,15 +296,15 @@ Material:
     - _RimNoiseDistortionScaleU: 2
     - _RimNoiseDistortionScaleV: 4
     - _RimNoiseDistortionScrollSpeed: 0.05
-    - _RimNoiseDistortionTilingU: 0.25
-    - _RimNoiseDistortionTilingV: 2
+    - _RimNoiseDistortionTilingU: 2
+    - _RimNoiseDistortionTilingV: 4
     - _RimNoiseNormalSpherize: 0
-    - _RimNoiseRefraction: 1
+    - _RimNoiseRefraction: 0
     - _RimNoiseScrollSpeed: 0.05
     - _RimNoiseSpherize: 0
     - _RimNoiseTiling: 0.1
-    - _RimNoiseTilingU: 1
-    - _RimNoiseTilingV: 0.5
+    - _RimNoiseTilingU: 0.1
+    - _RimNoiseTilingV: 1
     - _RimNoiseToRefraction: 0
     - _RimNoiseTwistAmount: 0.25
     - _RimRampOffsetExp2: 1
@@ -332,7 +346,7 @@ Material:
     - _Color0: {r: 1, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelGlowColor: {r: 1, g: 1, b: 1, a: 1}
-    - _RimColor: {r: 0.5424528, g: 0.5485644, b: 1, a: 1}
+    - _RimColor: {r: 0.65716624, g: 0.46564615, b: 0.9056604, a: 1}
     - _RimEmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimNoiseSpherizeCenter: {r: 0, g: 0, b: 0, a: 0}
     - _RimNoiseSpherizePosition: {r: 0, g: 0, b: 0, a: 0}
@@ -345,16 +359,3 @@ Material:
     - _Vector2: {r: 0, g: 0, b: 0, a: 0}
     - _Vector4: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &7133217398090515375
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7

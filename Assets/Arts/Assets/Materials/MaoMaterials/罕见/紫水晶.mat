@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_SG_No UV Star 2
+  m_Name: "\u7D2B\u6C34\u6676"
   m_Shader: {fileID: -6465566751694194690, guid: 0a0b6fa4cb0a5456b8a67ca5fbf92135,
     type: 3}
   m_Parent: {fileID: 0}
@@ -46,11 +46,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_Texture:
-        m_Texture: {fileID: 2800000, guid: b37026a557356b7498992ba4f05bc20e, type: 3}
+        m_Texture: {fileID: 2800000, guid: c83c63a8ad68c0e4ab31988e2b76f7fb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: ccb311898b867944a9f40534ecb48a27, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9785689458f734ecfaec36ecf6242bb7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -78,20 +78,20 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Speed: -0.009
-    - _Tilling: 5.25
+    - _Tilling: 4.36
     - _Wave_Speed: 0
     m_Colors:
-    - _Foot_Color: {r: 0.06314526, g: 0.31132078, b: 0.13380636, a: 1}
+    - _Foot_Color: {r: 0.4768689, g: 0.45296368, b: 0.8207547, a: 1}
     - _Fresnel_Color: {r: 0.56078434, g: 0.7058824, b: 0.6784314, a: 0}
-    - _Head_Color: {r: 0.78020054, g: 0.8584906, b: 0.2713154, a: 1}
-    - _In_Line_Color: {r: 0.33375645, g: 0.2506675, b: 0.4056604, a: 1}
+    - _Head_Color: {r: 0.48235297, g: 0.42352945, b: 0.59607846, a: 1}
+    - _In_Line_Color: {r: 0.2509804, g: 0.2746056, b: 0.40392157, a: 1}
     - _In_Line_SmoMin_max_FresnelPower_Fresnel_Scale_1: {r: 0.4, g: 0.9, b: 0.8, a: -0.1}
     - _Main_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Vertex_Mask_SmoMin_max_FresnelPower_Fresnel_Scale: {r: 0.63, g: 0.29, b: 0.155,
         a: 0.25}
-    - _Vertex_Mask_down_SmoMin_max_FresnelPower_Fresnel_Scale: {r: 0.94, g: 0.55,
+    - _Vertex_Mask_down_SmoMin_max_FresnelPower_Fresnel_Scale: {r: 2.21, g: 0.55,
         b: 2.32, a: -0.61}
-    - _Vertex_Mask_up_SmoMin_max_FresnelPower_Fresnel_Scale_1: {r: 0.96, g: 0.29,
+    - _Vertex_Mask_up_SmoMin_max_FresnelPower_Fresnel_Scale_1: {r: 0.81, g: 0.29,
         b: 0.58, a: 0.07}
     - _Vertex_Y_Mask_SmoMin_max_FresnelPower_Fresnel_Scale: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

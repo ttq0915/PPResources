@@ -7,8 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_SG_ice Render-Mimi
-  m_Shader: {fileID: -6465566751694194690, guid: 978d4f7c4c32a43868d474cb6ce78b64, type: 3}
+  m_Name: "\u51B0\u6676"
+  m_Shader: {fileID: -6465566751694194690, guid: 978d4f7c4c32a43868d474cb6ce78b64,
+    type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
