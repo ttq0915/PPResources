@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: YL_E13
   m_Shader: {fileID: 4800000, guid: 2f38ae449dd48aa47bc6f6d40b7ff153, type: 3}
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2100000, guid: da006d24b174ef34f9de3386430b6a81, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _BLINNPHONG
@@ -32,89 +32,7 @@ Material:
         m_Texture: {fileID: 2800000, guid: 0a7d2a7e4c7115845addd616554314be, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DiffuseRampMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _LightMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MatCapTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ShadingMap01:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats:
-    - _BumpMapKeyword: 0
-    - _BumpScale: 1
-    - _CELLSmoothing: 0.001
-    - _CELLThreshold: 0.5
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DepthOffsetShadowReverseX: 0
-    - _DepthShadowOffset: 0.15
-    - _DepthShadowSoftness: 0
-    - _DepthShadowThresoldOffset: 0
-    - _DstBlend: 0
-    - _EmissionColorAlbedoWeight: 0
-    - _Is_Filter_LightColor: 0
-    - _LightIntensityClamp: 1
-    - _MatCapAlbedoWeight: 0
-    - _Metallic: 0
-    - _OcclusionStrength: 0
-    - _Parallax: 0
-    - _QueueOffset: 0
-    - _RECEIVE_SHADOWS_OFF: 0
-    - _RampMapUOffset: 0
-    - _RampMapVOffset: 0.5
-    - _Shininess: 1
-    - _Smoothness: 0.5
-    - _SpecularMask: 0
-    - _SrcBlend: 1
-    - _Surface: 0
-    - _UseDepthShadow: 0
-    - _UseEmissionTex: 0
-    - _UseHalfLambert: 1
-    - _UseMatCap: 0
-    - _UseRadianceOcclusion: 0
-    - _ZWrite: 1
-    - _enum_diffuse: 3
-    - _enum_env: 0
-    - _enum_specular: 2
-    - _group: 0
-    - _group1: 1
-    - _groupAdditionLight: 1
-    - _groupEmission: 0
-    - _groupEnvironment: 1
-    - _groupMatCap: 1
-    - _groupParallax: 0
-    - _groupShadingMask: 0
-    - _groupShadowSetting: 1
-    - _groupSpecular: 1
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _DarkColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionChannel: {r: 0, g: 0, b: 1, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
-    - _EyeParallaxChannel: {r: 1, g: 0, b: 0, a: 0}
-    - _HighColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MatCapColor: {r: 1, g: 1, b: 1, a: 1}
-    - _PBRMetallicChannel: {r: 1, g: 0, b: 0, a: 0}
-    - _PBROcclusionChannel: {r: 0, g: 1, b: 0, a: 0}
-    - _PBRSmothnessChannel: {r: 0, g: 0, b: 0, a: 1}
-    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SpecularIntensityChannel: {r: 1, g: 0, b: 0, a: 0}
+    m_Floats: []
+    m_Colors: []
   m_BuildTextureStacks: []

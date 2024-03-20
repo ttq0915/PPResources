@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: YL_E20
+  m_Name: YL_E17
   m_Shader: {fileID: 4800000, guid: 2f38ae449dd48aa47bc6f6d40b7ff153, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -29,7 +29,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 4c78a8b0fe00ff54cb5aeb216ad25e7c, type: 3}
+        m_Texture: {fileID: 2800000, guid: a20a4a0cd4b842e4aac4272127bb15a3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
