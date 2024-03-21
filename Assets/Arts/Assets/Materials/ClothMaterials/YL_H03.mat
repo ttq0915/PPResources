@@ -88,7 +88,7 @@ Material:
     - _EmissionColorAlbedoWeight: 0
     - _Is_Filter_LightColor: 1
     - _LightIntensityClamp: 1
-    - _Metallic: 0.74
+    - _Metallic: 0.498
     - _OcclusionStrength: 0.27
     - _Outline: 0
     - _OutlineWidth: 1
@@ -100,7 +100,7 @@ Material:
     - _RimSoftness: 0.987
     - _RimThreshold: 0.441
     - _Shininess: 1
-    - _Smoothness: 0.481
+    - _Smoothness: 0.333
     - _SpaceScreenVariant: 0.5
     - _SpecularAA: 0
     - _SpecularAAThreshold: 1
@@ -133,7 +133,7 @@ Material:
     - _groupShadowSetting: 1
     - _groupSpecular: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 1.319508, g: 1.319508, b: 1.319508, a: 1}
     - _DarkColor: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionChannel: {r: 0, g: 0, b: 1, a: 0}

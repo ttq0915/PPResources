@@ -89,7 +89,7 @@ Material:
     - _Is_Filter_LightColor: 1
     - _LightIntensityClamp: 1
     - _Metallic: 0
-    - _OcclusionStrength: 0.5
+    - _OcclusionStrength: 0.37
     - _Outline: 0
     - _OutlineWidth: 1
     - _QueueOffset: 0
@@ -100,7 +100,7 @@ Material:
     - _RimSoftness: 0.987
     - _RimThreshold: 0.441
     - _Shininess: 1
-    - _Smoothness: 0.233
+    - _Smoothness: 0.543
     - _SpaceScreenVariant: 0.5
     - _SpecularAA: 0
     - _SpecularAAThreshold: 1
@@ -133,7 +133,7 @@ Material:
     - _groupShadowSetting: 1
     - _groupSpecular: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 1.1486983, g: 1.1486983, b: 1.1486983, a: 1}
     - _DarkColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionChannel: {r: 0, g: 0, b: 1, a: 0}

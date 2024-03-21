@@ -16,7 +16,6 @@ Material:
   - _CELLSHADING
   - _CLEARCOAT
   - _DEPTHSHADOW
-  - _FRESNELRIM
   - _NORMALMAP
   - _RENDERENVSETTING
   m_InvalidKeywords:
@@ -65,8 +64,8 @@ Material:
     m_Floats:
     - _BumpMapKeyword: 1
     - _BumpScale: 1
-    - _CELLSmoothing: 0.05
-    - _CELLThreshold: 0.5
+    - _CELLSmoothing: 0.077
+    - _CELLThreshold: 0.696
     - _CellBandSoftness: 0.001
     - _CellBands: 3
     - _ClearCoat: 1
@@ -89,7 +88,7 @@ Material:
     - _Is_Filter_LightColor: 1
     - _LightIntensityClamp: 1
     - _Metallic: 0
-    - _OcclusionStrength: 0.5
+    - _OcclusionStrength: 0
     - _Outline: 0
     - _OutlineWidth: 1
     - _QueueOffset: 0
@@ -100,7 +99,7 @@ Material:
     - _RimSoftness: 0.987
     - _RimThreshold: 0.441
     - _Shininess: 1
-    - _Smoothness: 0.233
+    - _Smoothness: 0.157
     - _SpaceScreenVariant: 0.5
     - _SpecularAA: 0
     - _SpecularAAThreshold: 1
@@ -118,7 +117,7 @@ Material:
     - _ZWrite: 1
     - _enum_diffuse: 0
     - _enum_env: 1
-    - _enum_rim: 1
+    - _enum_rim: 0
     - _enum_specular: 3
     - _group: 0
     - _group1: 1
@@ -133,7 +132,7 @@ Material:
     - _groupShadowSetting: 1
     - _groupSpecular: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 2, g: 2, b: 2, a: 1}
     - _DarkColor: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionChannel: {r: 0, g: 0, b: 1, a: 0}
