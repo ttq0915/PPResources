@@ -89,7 +89,7 @@ Material:
     - _Is_Filter_LightColor: 1
     - _LightIntensityClamp: 1
     - _Metallic: 0.74
-    - _OcclusionStrength: 0.417
+    - _OcclusionStrength: 0.069
     - _Outline: 0
     - _OutlineWidth: 1
     - _QueueOffset: 0
