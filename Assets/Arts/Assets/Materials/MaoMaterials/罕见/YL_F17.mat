@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Ice_Tex:
-        m_Texture: {fileID: 2800000, guid: 169301b5b4ed946b8aed989b4efbdb2d, type: 3}
+        m_Texture: {fileID: 2800000, guid: d4d0445cf6ae8874e9c13c4ccc213f0b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Main_Tex:
@@ -33,7 +33,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NM_Tex:
-        m_Texture: {fileID: 2800000, guid: ce7226c80c3a2f94b9a4440d5efedd56, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3b0264d7b21094f468f20a826462ba4a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal_Tex:
@@ -67,7 +67,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Blend: 2.98
-    - _Contrast: 0
+    - _Contrast: 4.92
     - _Depth_Mix_Offset: 2.77
     - _Metallic: 0.46
     - _Normal_Strength: 1.43
@@ -89,7 +89,7 @@ Material:
     - _Fresnel_Color: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0}
     - _Fresnel_Min_Max_Power_Scale: {r: 0.22, g: -0.17, b: 2.85, a: 0.06}
     - _Fresnel_Power_Scale: {r: 1.75, g: -0.04, b: 0, a: 0}
-    - _Ice_Color: {r: 0.81350124, g: 0.88781, b: 0.9528302, a: 1}
+    - _Ice_Color: {r: 0.4575472, g: 0.87739617, b: 1, a: 1}
     - _Point_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Texture_Depth_Mix: {r: 15.2, g: 11.37, b: 6.89, a: 0}
   m_BuildTextureStacks: []

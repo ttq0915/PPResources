@@ -64,7 +64,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpMapKeyword: 1
-    - _BumpScale: 1
+    - _BumpScale: 1.68
     - _CELLSmoothing: 0.05
     - _CELLThreshold: 0.5
     - _CellBandSoftness: 0.001
@@ -88,8 +88,8 @@ Material:
     - _EmissionColorAlbedoWeight: 0
     - _Is_Filter_LightColor: 1
     - _LightIntensityClamp: 1
-    - _Metallic: 0.153
-    - _OcclusionStrength: 0.576
+    - _Metallic: 0.213
+    - _OcclusionStrength: 0.193
     - _Outline: 0
     - _OutlineWidth: 1
     - _QueueOffset: 0
@@ -100,7 +100,7 @@ Material:
     - _RimSoftness: 0.987
     - _RimThreshold: 0.441
     - _Shininess: 1
-    - _Smoothness: 0.619
+    - _Smoothness: 0.626
     - _SpaceScreenVariant: 0.5
     - _SpecularAA: 0
     - _SpecularAAThreshold: 1

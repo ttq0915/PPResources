@@ -100,7 +100,7 @@ Material:
     - _RimSoftness: 0.987
     - _RimThreshold: 0.76
     - _Shininess: 1
-    - _Smoothness: 0.237
+    - _Smoothness: 0.328
     - _SpaceScreenVariant: 0.5
     - _SpecularAA: 0
     - _SpecularAAThreshold: 1
