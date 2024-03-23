@@ -13,10 +13,10 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _BLINNPHONG
-  - _CELLSHADING
   - _CLEARCOAT
   - _DEPTHSHADOW
   - _FRESNELRIM
+  - _LAMBERTIAN
   - _NORMALMAP
   - _RENDERENVSETTING
   m_InvalidKeywords:
@@ -88,8 +88,8 @@ Material:
     - _EmissionColorAlbedoWeight: 0
     - _Is_Filter_LightColor: 1
     - _LightIntensityClamp: 1
-    - _Metallic: 0.436
-    - _OcclusionStrength: 0.12
+    - _Metallic: 1
+    - _OcclusionStrength: 0.636
     - _Outline: 0
     - _OutlineWidth: 1
     - _QueueOffset: 0
@@ -114,9 +114,9 @@ Material:
     - _UseDissolveEffect: 0
     - _UseEmissionTex: 0
     - _UseHalfLambert: 1
-    - _UseRadianceOcclusion: 1
+    - _UseRadianceOcclusion: 0
     - _ZWrite: 1
-    - _enum_diffuse: 0
+    - _enum_diffuse: 3
     - _enum_env: 1
     - _enum_rim: 1
     - _enum_specular: 3
@@ -134,7 +134,7 @@ Material:
     - _groupSpecular: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _DarkColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _DarkColor: {r: 0, g: 0, b: 0, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionChannel: {r: 0, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}

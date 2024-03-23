@@ -133,7 +133,7 @@ Material:
     - _groupShadowSetting: 1
     - _groupSpecular: 1
     m_Colors:
-    - _BaseColor: {r: 1.5157166, g: 1.5157166, b: 1.5157166, a: 1}
+    - _BaseColor: {r: 1.0000001, g: 1.0000001, b: 1.0000001, a: 1}
     - _DarkColor: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionChannel: {r: 0, g: 0, b: 1, a: 0}

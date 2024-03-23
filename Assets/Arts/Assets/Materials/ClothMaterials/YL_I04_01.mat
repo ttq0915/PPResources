@@ -13,10 +13,9 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _BLINNPHONG
-  - _CELLSHADING
-  - _CLEARCOAT
   - _DEPTHSHADOW
   - _FRESNELRIM
+  - _LAMBERTIAN
   - _NORMALMAP
   - _RENDERENVSETTING
   m_InvalidKeywords:
@@ -69,7 +68,7 @@ Material:
     - _CELLThreshold: 0.5
     - _CellBandSoftness: 0.001
     - _CellBands: 3
-    - _ClearCoat: 1
+    - _ClearCoat: 0
     - _ClearCoatMask: 0.4
     - _ClearCoatSmoothness: 0.5
     - _ClearCoatTexSource: 0
@@ -88,8 +87,8 @@ Material:
     - _EmissionColorAlbedoWeight: 0
     - _Is_Filter_LightColor: 1
     - _LightIntensityClamp: 1
-    - _Metallic: 0.517
-    - _OcclusionStrength: 0.427
+    - _Metallic: 0.872
+    - _OcclusionStrength: 0.678
     - _Outline: 0
     - _OutlineWidth: 1
     - _QueueOffset: 0
@@ -100,7 +99,7 @@ Material:
     - _RimSoftness: 0.987
     - _RimThreshold: 0.441
     - _Shininess: 1
-    - _Smoothness: 0.136
+    - _Smoothness: 0.359
     - _SpaceScreenVariant: 0.5
     - _SpecularAA: 0
     - _SpecularAAThreshold: 1
@@ -114,9 +113,9 @@ Material:
     - _UseDissolveEffect: 0
     - _UseEmissionTex: 0
     - _UseHalfLambert: 1
-    - _UseRadianceOcclusion: 1
+    - _UseRadianceOcclusion: 0
     - _ZWrite: 1
-    - _enum_diffuse: 0
+    - _enum_diffuse: 3
     - _enum_env: 1
     - _enum_rim: 1
     - _enum_specular: 3
@@ -133,8 +132,8 @@ Material:
     - _groupShadowSetting: 1
     - _groupSpecular: 1
     m_Colors:
-    - _BaseColor: {r: 2, g: 2, b: 2, a: 1}
-    - _DarkColor: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
+    - _BaseColor: {r: 2, g: 1.9339622, b: 1.9339622, a: 1}
+    - _DarkColor: {r: 0, g: 0, b: 0, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionChannel: {r: 0, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}

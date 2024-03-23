@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: YL_I04_03
+  m_Name: YL_H04_01
   m_Shader: {fileID: 4800000, guid: 6f0c7ad3bedb2a943a1cf488115a1f9e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -34,11 +34,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: d559452b50ccffe4b93f6c0c66602619, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3c922ef5010a52349950f63df85fe280, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 13470d98947aa2f4cb13d27c1e826c56, type: 3}
+        m_Texture: {fileID: 2800000, guid: 579715c63db147c448fbe4c0868b7c0c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DiffuseRampMap:
@@ -54,7 +54,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightMap:
-        m_Texture: {fileID: 2800000, guid: 7d3de80638410994fb21037f2d824dff, type: 3}
+        m_Texture: {fileID: 2800000, guid: 30fa61b3e1635994da235ea34588f28f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadingMap01:
@@ -88,8 +88,8 @@ Material:
     - _EmissionColorAlbedoWeight: 0
     - _Is_Filter_LightColor: 1
     - _LightIntensityClamp: 1
-    - _Metallic: 0.401
-    - _OcclusionStrength: 0.216
+    - _Metallic: 0
+    - _OcclusionStrength: 0.24
     - _Outline: 0
     - _OutlineWidth: 1
     - _QueueOffset: 0
@@ -100,7 +100,7 @@ Material:
     - _RimSoftness: 0.987
     - _RimThreshold: 0.441
     - _Shininess: 1
-    - _Smoothness: 0.365
+    - _Smoothness: 0.35
     - _SpaceScreenVariant: 0.5
     - _SpecularAA: 0
     - _SpecularAAThreshold: 1
@@ -133,8 +133,8 @@ Material:
     - _groupShadowSetting: 1
     - _groupSpecular: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _DarkColor: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
+    - _BaseColor: {r: 1.319508, g: 1.319508, b: 1.319508, a: 1}
+    - _DarkColor: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionChannel: {r: 0, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
