@@ -103,7 +103,7 @@ Material:
     - _Smoothness: 0
     - _Speed: 0.01
     - _Test_Alpha_Add: -0.151
-    - _Tilling: 8
+    - _Tilling: 4
     - _Z_Alpha_Add: 0.3
     m_Colors:
     - _Bouder_Color_Bottom: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 1}
