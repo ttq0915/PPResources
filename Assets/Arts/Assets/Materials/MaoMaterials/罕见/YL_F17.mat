@@ -75,7 +75,7 @@ Material:
     - _Point_Speed: -0.025
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Refrac_Mix: 0.08
+    - _Refrac_Mix: 0.83
     - _Scene_Color_Mix_Scale: 0.369
     - _Smoothness: 0.033
     - _Smoothness_1: 0
@@ -89,7 +89,7 @@ Material:
     - _Fresnel_Color: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0}
     - _Fresnel_Min_Max_Power_Scale: {r: 0.22, g: -0.17, b: 2.85, a: 0.06}
     - _Fresnel_Power_Scale: {r: 1.75, g: -0.04, b: 0, a: 0}
-    - _Ice_Color: {r: 0.4575472, g: 0.87739617, b: 1, a: 1}
+    - _Ice_Color: {r: 0.7728729, g: 0.9343493, b: 0.9811321, a: 1}
     - _Point_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Texture_Depth_Mix: {r: 15.2, g: 11.37, b: 6.89, a: 0}
   m_BuildTextureStacks: []
