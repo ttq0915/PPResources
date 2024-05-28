@@ -15,6 +15,7 @@ Material:
   - _CELLBANDSHADING
   - _RECEIVE_SHADOWS_OFF
   - _RENDERENVSETTING
+  - _USEEMISSIONTEX
   m_InvalidKeywords:
   - _IS_FILTER_LIGHTCOLOR_ON
   - _USEHALFLAMBERT_ON
@@ -112,7 +113,7 @@ Material:
     - _Surface: 0
     - _UseDepthShadow: 0
     - _UseDissolveEffect: 0
-    - _UseEmissionTex: 0
+    - _UseEmissionTex: 1
     - _UseHalfLambert: 1
     - _UseRadianceOcclusion: 1
     - _ZWrite: 1

@@ -73,7 +73,7 @@ Material:
     - _ClearCoatMask: 0.4
     - _ClearCoatSmoothness: 0.5
     - _ClearCoatTexSource: 0
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DepthOffsetRimReverseX: 0
     - _DepthOffsetShadowReverseX: 0
@@ -105,7 +105,7 @@ Material:
     - _SpecularAA: 0
     - _SpecularAAThreshold: 1
     - _SpecularMask: 0
-    - _SrcBlend: 1
+    - _SrcBlend: 3
     - _StylizedSpecularAlbedoWeight: 0
     - _StylizedSpecularSize: 0.1
     - _StylizedSpecularSoftness: 0.05

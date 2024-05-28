@@ -12,12 +12,14 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _BLINNPHONG
   - _DEPTHSHADOW
   - _FRESNELRIM
-  - _LAMBERTIAN
+  - _GGX
   - _NORMALMAP
+  - _RAMPSHADING
   - _RENDERENVSETTING
+  - _SPECULARMASK
+  - _USEEMISSIONTEX
   m_InvalidKeywords:
   - _IS_FILTER_LIGHTCOLOR_ON
   - _USEHALFLAMBERT_ON
@@ -41,7 +43,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DiffuseRampMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 9146046b62b5a644cb18307b9a04be6c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolveNoiseTex:
@@ -49,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 62d55cb56b5fabd4595fca982aa2202f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightMap:
@@ -93,17 +95,17 @@ Material:
     - _OutlineWidth: 1
     - _QueueOffset: 0
     - _RECEIVE_SHADOWS_OFF: 1
-    - _RampMapUOffset: 0
+    - _RampMapUOffset: -0.09
     - _RampMapVOffset: 0.5
     - _RimDirectionLightContribution: 0.917
     - _RimSoftness: 0.987
     - _RimThreshold: 0.441
     - _Shininess: 1
-    - _Smoothness: 0.571
-    - _SpaceScreenVariant: 0.5
+    - _Smoothness: 0.651
+    - _SpaceScreenVariant: 1
     - _SpecularAA: 0
-    - _SpecularAAThreshold: 1
-    - _SpecularMask: 0
+    - _SpecularAAThreshold: 0
+    - _SpecularMask: 1
     - _SrcBlend: 1
     - _StylizedSpecularAlbedoWeight: 0
     - _StylizedSpecularSize: 0.1
@@ -111,14 +113,14 @@ Material:
     - _Surface: 0
     - _UseDepthShadow: 1
     - _UseDissolveEffect: 0
-    - _UseEmissionTex: 0
+    - _UseEmissionTex: 1
     - _UseHalfLambert: 1
-    - _UseRadianceOcclusion: 0
+    - _UseRadianceOcclusion: 1
     - _ZWrite: 1
-    - _enum_diffuse: 3
+    - _enum_diffuse: 1
     - _enum_env: 1
     - _enum_rim: 1
-    - _enum_specular: 3
+    - _enum_specular: 1
     - _group: 0
     - _group1: 1
     - _groupAdditionLight: 1
@@ -136,7 +138,7 @@ Material:
     - _DarkColor: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionChannel: {r: 0, g: 0, b: 1, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 0}
     - _HighColor: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _PBRMetallicChannel: {r: 1, g: 0, b: 0, a: 0}
