@@ -187,7 +187,7 @@ Shader "NPREye"
             Cull[_Cull]
 
             HLSLPROGRAM
-            #pragma only_renderers gles gles3 glcore d3d11
+            //#pragma only_renderers gles gles3 glcore d3d11
             #pragma target 3.0
 
             // -------------------------------------
@@ -226,7 +226,7 @@ Shader "NPREye"
             Cull[_Cull]
 
             HLSLPROGRAM
-            #pragma only_renderers gles gles3 glcore d3d11
+            //#pragma only_renderers gles gles3 glcore d3d11
             #pragma target 3.0
 
             // -------------------------------------
@@ -261,7 +261,7 @@ Shader "NPREye"
             Cull[_Cull]
 
             HLSLPROGRAM
-            #pragma only_renderers gles gles3 glcore d3d11
+            //#pragma only_renderers gles gles3 glcore d3d11
             #pragma target 3.0
 
             // -------------------------------------

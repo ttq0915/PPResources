@@ -146,7 +146,7 @@ Shader "NPRStandard"
             Cull[_Cull]
 
             HLSLPROGRAM
-            #pragma only_renderers gles gles3 glcore d3d11
+            //#pragma only_renderers gles gles3 glcore d3d11
             #pragma target 3.0
 
             // -------------------------------------
@@ -222,7 +222,7 @@ Shader "NPRStandard"
             Cull[_Cull]
 
             HLSLPROGRAM
-            #pragma only_renderers gles gles3 glcore d3d11
+            //#pragma only_renderers gles gles3 glcore d3d11
             #pragma target 3.0
 
             //--------------------------------------
@@ -257,7 +257,7 @@ Shader "NPRStandard"
             Cull[_Cull]
 
             HLSLPROGRAM
-            #pragma only_renderers gles gles3 glcore d3d11
+            //#pragma only_renderers gles gles3 glcore d3d11
             #pragma target 3.0
 
             //--------------------------------------
@@ -287,7 +287,7 @@ Shader "NPRStandard"
             Cull[_Cull]
 
             HLSLPROGRAM
-            #pragma only_renderers gles gles3 glcore d3d11
+            //#pragma only_renderers gles gles3 glcore d3d11
             #pragma target 3.0
 
             #pragma vertex DepthNormalsVertex
@@ -326,7 +326,7 @@ Shader "NPRStandard"
             Cull Off
 
             HLSLPROGRAM
-            #pragma only_renderers gles gles3 glcore d3d11
+            //#pragma only_renderers gles gles3 glcore d3d11
             #pragma target 3.0
 
             #pragma vertex UniversalVertexMeta
