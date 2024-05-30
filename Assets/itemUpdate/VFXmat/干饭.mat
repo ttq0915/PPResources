@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "\u5E72\u996D"
+  m_Shader: {fileID: 4800000, guid: 4347cf6263780d641b47275816d7e7e6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _USING_MASKMAP
+  m_InvalidKeywords:
+  - _TEXTURESHEETISLOOP_ON
+  - _TEXTURESHEETLEFTFIRST_ON
+  - _TEXTURESHEETTOPFIRST_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolveDistortMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlobalDistortMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlowDistortMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlowMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlowMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainDistortMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskDistortMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: 4fa307172c96ef448bb1e135a8c32a69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AirDistortIntensity: 0.5
+    - _AlphaCutout: 0.5
+    - _Blend: 1
+    - _BlendOp: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _Cull: 0
+    - _DissolveDistortGlobalFactor: 1
+    - _DissolveDistortIntensity: 0.5
+    - _DissolveDistortUVRotateSpeed: 0
+    - _DissolveEdgeRange: 0.1
+    - _DissolveMaskUVRotation: 0
+    - _DissolvePolarGlobalFactor: 1
+    - _DissolvePolarIntensity: 1
+    - _DissolvePolarLengthFactor: 1
+    - _DissolvePolarRadialFactor: 1
+    - _DissolveThreshold: 0.2
+    - _DissolveTwirlGlobalFactor: 1
+    - _DissolveTwirlIntensity: 0.5
+    - _DissolveUVRotation: 0
+    - _DstBlend: 10
+    - _EraseProgress: 0
+    - _EraseSoftenFactor: 0.05
+    - _EraseUVRotation: 0
+    - _FinalFogIntensity: 0
+    - _FresnelPower: 1
+    - _FresnelRevertFactor: 1
+    - _FresnelTransitionPower: 1
+    - _GlobalDistortGlobalFactor: 1
+    - _GlobalDistortIntensity: 0.5
+    - _GlobalDistortUVRotateSpeed: 0
+    - _GlobalPolarGlobalFactor: 1
+    - _GlobalPolarIntensity: 1
+    - _GlobalPolarLengthFactor: 1
+    - _GlobalPolarRadialFactor: 1
+    - _GlobalTwirlGlobalFactor: 1
+    - _GlobalTwirlIntensity: 0.5
+    - _GlowAlphaEnhanceFactor: 0
+    - _GlowDistortGlobalFactor: 1
+    - _GlowDistortIntensity: 0.5
+    - _GlowDistortUVRotateSpeed: 0
+    - _GlowPolarGlobalFactor: 1
+    - _GlowPolarIntensity: 1
+    - _GlowPolarLengthFactor: 1
+    - _GlowPolarRadialFactor: 1
+    - _GlowSoftenFactor: 0
+    - _GlowThreshold: 0
+    - _GlowTwirlGlobalFactor: 1
+    - _GlowTwirlIntensity: 0.5
+    - _GlowUVRotation: 0
+    - _MainDistortGlobalFactor: 1
+    - _MainDistortIntensity: 0.5
+    - _MainDistortUVRotateSpeed: 0
+    - _MainPolarGlobalFactor: 1
+    - _MainPolarIntensity: 1
+    - _MainPolarLengthFactor: 1
+    - _MainPolarRadialFactor: 1
+    - _MainTwirlGlobalFactor: 1
+    - _MainTwirlIntensity: 0.5
+    - _MainUVRotation: 0
+    - _MaskDistortGlobalFactor: 1
+    - _MaskDistortIntensity: 0.5
+    - _MaskDistortUVRotateSpeed: 0
+    - _MaskPolarGlobalFactor: 1
+    - _MaskPolarIntensity: 1
+    - _MaskPolarLengthFactor: 1
+    - _MaskPolarRadialFactor: 1
+    - _MaskTwirlGlobalFactor: 1
+    - _MaskTwirlIntensity: 0.5
+    - _MaskUVRotation: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SrcBlend: 5
+    - _StencilComp: 0
+    - _TextureSheetIsLoop: 1
+    - _TextureSheetLeftFirst: 1
+    - _TextureSheetProgress: 1
+    - _TextureSheetSpeed: 15
+    - _TextureSheetTopFirst: 1
+    - _UseAirDistort: 0
+    - _UseCameraFade: 0
+    - _UseCustomData: 0
+    - _UseCustomData1: 0
+    - _UseCustomData2: 0
+    - _UseCustomData3: 0
+    - _UseCustomData4: 0
+    - _UseDissolve: 0
+    - _UseDissolveDistort: 0
+    - _UseDissolveMask: 0
+    - _UseDissolvePolar: 0
+    - _UseDissolveTwirl: 0
+    - _UseDissolveUVOpt: 0
+    - _UseErase: 0
+    - _UseFlipbookBlending: 0
+    - _UseFresnel: 0
+    - _UseGlobalDistort: 0
+    - _UseGlobalPolar: 0
+    - _UseGlobalTwirl: 0
+    - _UseGlobalUVOpt: 0
+    - _UseGlow: 0
+    - _UseGlowDistort: 0
+    - _UseGlowPolar: 0
+    - _UseGlowTwirl: 0
+    - _UseGlowUVOpt: 0
+    - _UseMainDistort: 0
+    - _UseMainPolar: 0
+    - _UseMainTwirl: 0
+    - _UseMainUVOpt: 0
+    - _UseMaskDistort: 0
+    - _UseMaskMap: 1
+    - _UseMaskPolar: 0
+    - _UseMaskTwirl: 0
+    - _UseMaskUVOpt: 0
+    - _UseSoftParticle: 0
+    - _UseTextureSheet: 0
+    - _ZTest: 4
+    - _ZWrite: 0
+    m_Colors:
+    - _AirDistortColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveDistortUVPanSpeed: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _DissolveEdgeColor: {r: 3, g: 3, b: 1, a: 1}
+    - _DissolvePolarCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _DissolveTwirlCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _DissolveUVPanSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelTransitionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlobalDistortUVPanSpeed: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _GlobalPolarCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _GlobalTwirlCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _GlowColor: {r: 1, g: 0.88, b: 1, a: 1}
+    - _GlowDistortUVPanSpeed: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _GlowPolarCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _GlowTwirlCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _GlowUVPanSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _MainDistortUVPanSpeed: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _MainPolarCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _MainTwirlCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _MainUVPanSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _MaskDistortUVPanSpeed: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _MaskPolarCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _MaskTwirlCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _MaskUVPanSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _TextureSheetSize: {r: 4, g: 4, b: 0, a: 0}
+  m_BuildTextureStacks: []
