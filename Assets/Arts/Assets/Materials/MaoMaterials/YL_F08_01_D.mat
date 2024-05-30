@@ -13,6 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _CELLBANDSHADING
+  - _FRESNELRIM
   - _RECEIVE_SHADOWS_OFF
   - _RENDERENVSETTING
   - _USEEMISSIONTEX
@@ -99,7 +100,7 @@ Material:
     - _RampMapVOffset: 0.5
     - _RimDirectionLightContribution: 1
     - _RimSoftness: 0.01
-    - _RimThreshold: 0.2
+    - _RimThreshold: 0.527
     - _Shininess: 1
     - _Smoothness: 0
     - _SpaceScreenVariant: 0.5
@@ -119,7 +120,7 @@ Material:
     - _ZWrite: 1
     - _enum_diffuse: 2
     - _enum_env: 1
-    - _enum_rim: 0
+    - _enum_rim: 1
     - _enum_specular: 0
     - _group: 0
     - _group1: 1
