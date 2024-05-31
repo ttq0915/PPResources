@@ -15,9 +15,9 @@ Material:
   - _BLINNPHONG
   - _CELLSHADING
   - _CLEARCOAT
-  - _DEPTHSHADOW
   - _FRESNELRIM
   - _NORMALMAP
+  - _RECEIVE_SHADOWS_OFF
   - _RENDERENVSETTING
   m_InvalidKeywords:
   - _IS_FILTER_LIGHTCOLOR_ON
@@ -65,8 +65,8 @@ Material:
     m_Floats:
     - _BumpMapKeyword: 1
     - _BumpScale: 1
-    - _CELLSmoothing: 0.05
-    - _CELLThreshold: 0.5
+    - _CELLSmoothing: 0.3
+    - _CELLThreshold: 0.1
     - _CellBandSoftness: 0.001
     - _CellBands: 3
     - _ClearCoat: 1
@@ -93,7 +93,7 @@ Material:
     - _Outline: 0
     - _OutlineWidth: 1
     - _QueueOffset: 0
-    - _RECEIVE_SHADOWS_OFF: 1
+    - _RECEIVE_SHADOWS_OFF: 0
     - _RampMapUOffset: 0
     - _RampMapVOffset: 0.5
     - _RimDirectionLightContribution: 0.917
@@ -110,7 +110,7 @@ Material:
     - _StylizedSpecularSize: 0.1
     - _StylizedSpecularSoftness: 0.05
     - _Surface: 0
-    - _UseDepthShadow: 1
+    - _UseDepthShadow: 0
     - _UseDissolveEffect: 0
     - _UseEmissionTex: 0
     - _UseHalfLambert: 1

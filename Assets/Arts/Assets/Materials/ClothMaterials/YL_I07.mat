@@ -13,10 +13,10 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _BLINNPHONG
-  - _DEPTHSHADOW
+  - _CELLSHADING
   - _FRESNELRIM
-  - _LAMBERTIAN
   - _NORMALMAP
+  - _RECEIVE_SHADOWS_OFF
   - _RENDERENVSETTING
   - _USEEMISSIONTEX
   m_InvalidKeywords:
@@ -65,8 +65,8 @@ Material:
     m_Floats:
     - _BumpMapKeyword: 1
     - _BumpScale: 1
-    - _CELLSmoothing: 0.05
-    - _CELLThreshold: 0.5
+    - _CELLSmoothing: 0.3
+    - _CELLThreshold: 0.1
     - _CellBandSoftness: 0.001
     - _CellBands: 3
     - _ClearCoat: 0
@@ -93,7 +93,7 @@ Material:
     - _Outline: 0
     - _OutlineWidth: 1
     - _QueueOffset: 0
-    - _RECEIVE_SHADOWS_OFF: 1
+    - _RECEIVE_SHADOWS_OFF: 0
     - _RampMapUOffset: 0
     - _RampMapVOffset: 0.5
     - _RimDirectionLightContribution: 0.917
@@ -110,13 +110,13 @@ Material:
     - _StylizedSpecularSize: 0.1
     - _StylizedSpecularSoftness: 0.05
     - _Surface: 0
-    - _UseDepthShadow: 1
+    - _UseDepthShadow: 0
     - _UseDissolveEffect: 0
     - _UseEmissionTex: 1
     - _UseHalfLambert: 1
     - _UseRadianceOcclusion: 0
     - _ZWrite: 1
-    - _enum_diffuse: 3
+    - _enum_diffuse: 0
     - _enum_env: 1
     - _enum_rim: 1
     - _enum_specular: 3
@@ -134,7 +134,7 @@ Material:
     - _groupSpecular: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _DarkColor: {r: 0, g: 0, b: 0, a: 1}
+    - _DarkColor: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionChannel: {r: 0, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 0}

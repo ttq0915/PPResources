@@ -100,7 +100,7 @@ Material:
     - _RampMapVOffset: 0.5
     - _RimDirectionLightContribution: 0.982
     - _RimSoftness: 0.047
-    - _RimThreshold: 0.168
+    - _RimThreshold: 0.437
     - _Shininess: 1
     - _Smoothness: 0
     - _SpaceScreenVariant: 0.5
