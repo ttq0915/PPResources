@@ -13,9 +13,11 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _CELLSHADING
+  - _FRESNELRIM
   - _GGX
   - _RECEIVE_SHADOWS_OFF
   - _RENDERENVSETTING
+  - _USEEMISSIONTEX
   m_InvalidKeywords:
   - _IS_FILTER_LIGHTCOLOR_ON
   - _USEHALFLAMBERT_ON
@@ -62,7 +64,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 9ff901dc911837945b1af8d57b8504c2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightMap:
@@ -113,8 +115,8 @@ Material:
     - _BlendModePreserveSpecular: 1
     - _BumpMapKeyword: 0
     - _BumpScale: 1
-    - _CELLSmoothing: 0.322
-    - _CELLThreshold: 0.5
+    - _CELLSmoothing: 0.3
+    - _CELLThreshold: 0.1
     - _CellBandSoftness: 0.001
     - _CellBands: 1
     - _ClearCoat: 0
@@ -153,8 +155,8 @@ Material:
     - _RampMapUOffset: 0
     - _RampMapVOffset: 0.5
     - _ReceiveShadows: 1
-    - _RimDirectionLightContribution: 1
-    - _RimSoftness: 0.01
+    - _RimDirectionLightContribution: 0.2
+    - _RimSoftness: 1
     - _RimThreshold: 0.2
     - _Shininess: 1
     - _Smoothness: 0.5
@@ -172,14 +174,14 @@ Material:
     - _Surface: 0
     - _UseDepthShadow: 0
     - _UseDissolveEffect: 0
-    - _UseEmissionTex: 0
+    - _UseEmissionTex: 1
     - _UseHalfLambert: 1
     - _UseRadianceOcclusion: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     - _enum_diffuse: 0
     - _enum_env: 1
-    - _enum_rim: 0
+    - _enum_rim: 1
     - _enum_specular: 1
     - _group: 0
     - _group1: 1
@@ -199,7 +201,7 @@ Material:
     - _DarkColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionChannel: {r: 0, g: 0, b: 1, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 1}
     - _HighColor: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _PBRMetallicChannel: {r: 1, g: 0, b: 0, a: 0}

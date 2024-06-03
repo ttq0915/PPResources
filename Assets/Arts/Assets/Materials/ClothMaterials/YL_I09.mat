@@ -12,10 +12,10 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _BLINNPHONG
   - _CELLSHADING
   - _CLEARCOAT
   - _FRESNELRIM
+  - _GGX
   - _NORMALMAP
   - _RECEIVE_SHADOWS_OFF
   - _RENDERENVSETTING
@@ -97,9 +97,9 @@ Material:
     - _RECEIVE_SHADOWS_OFF: 0
     - _RampMapUOffset: 0
     - _RampMapVOffset: 0.5
-    - _RimDirectionLightContribution: 0.917
-    - _RimSoftness: 0.987
-    - _RimThreshold: 0.441
+    - _RimDirectionLightContribution: 0.2
+    - _RimSoftness: 1
+    - _RimThreshold: 0.2
     - _Shininess: 1
     - _Smoothness: 0.244
     - _SpaceScreenVariant: 0.5
@@ -120,7 +120,7 @@ Material:
     - _enum_diffuse: 0
     - _enum_env: 1
     - _enum_rim: 1
-    - _enum_specular: 3
+    - _enum_specular: 1
     - _group: 0
     - _group1: 1
     - _groupAdditionLight: 1

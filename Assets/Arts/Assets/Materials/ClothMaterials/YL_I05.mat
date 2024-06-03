@@ -97,9 +97,9 @@ Material:
     - _RECEIVE_SHADOWS_OFF: 0
     - _RampMapUOffset: -0.09
     - _RampMapVOffset: 0.5
-    - _RimDirectionLightContribution: 0.917
-    - _RimSoftness: 0.987
-    - _RimThreshold: 0.441
+    - _RimDirectionLightContribution: 0.2
+    - _RimSoftness: 1
+    - _RimThreshold: 0.2
     - _Shininess: 1
     - _Smoothness: 0.651
     - _SpaceScreenVariant: 1

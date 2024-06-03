@@ -16,6 +16,7 @@ Material:
   - _GGX
   - _RECEIVE_SHADOWS_OFF
   - _RENDERENVSETTING
+  - _USEEMISSIONTEX
   m_InvalidKeywords:
   - _IS_FILTER_LIGHTCOLOR_ON
   - _USEHALFLAMBERT_ON
@@ -62,7 +63,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 3bbdb6c6a2d2ac344b84eeeb9553e596, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightMap:
@@ -113,8 +114,8 @@ Material:
     - _BlendModePreserveSpecular: 1
     - _BumpMapKeyword: 0
     - _BumpScale: 1
-    - _CELLSmoothing: 0.001
-    - _CELLThreshold: 0.5
+    - _CELLSmoothing: 0.3
+    - _CELLThreshold: 0.1
     - _CellBandSoftness: 0.001
     - _CellBands: 1
     - _ClearCoat: 0
@@ -172,7 +173,7 @@ Material:
     - _Surface: 0
     - _UseDepthShadow: 0
     - _UseDissolveEffect: 0
-    - _UseEmissionTex: 0
+    - _UseEmissionTex: 1
     - _UseHalfLambert: 1
     - _UseRadianceOcclusion: 0
     - _WorkflowMode: 1
@@ -199,7 +200,7 @@ Material:
     - _DarkColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionChannel: {r: 0, g: 0, b: 1, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
     - _HighColor: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _PBRMetallicChannel: {r: 1, g: 0, b: 0, a: 0}

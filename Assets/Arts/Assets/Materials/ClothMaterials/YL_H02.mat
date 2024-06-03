@@ -12,13 +12,14 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _BLINNPHONG
   - _CELLSHADING
   - _CLEARCOAT
   - _FRESNELRIM
+  - _GGX
   - _NORMALMAP
   - _RECEIVE_SHADOWS_OFF
   - _RENDERENVSETTING
+  - _USEEMISSIONTEX
   m_InvalidKeywords:
   - _IS_FILTER_LIGHTCOLOR_ON
   - _USEHALFLAMBERT_ON
@@ -50,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e18ddc6c516516542a65c8556c68c99e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightMap:
@@ -65,8 +66,8 @@ Material:
     m_Floats:
     - _BumpMapKeyword: 1
     - _BumpScale: 1
-    - _CELLSmoothing: 0.301
-    - _CELLThreshold: 0.096
+    - _CELLSmoothing: 0.3
+    - _CELLThreshold: 0.1
     - _CellBandSoftness: 0.001
     - _CellBands: 3
     - _ClearCoat: 1
@@ -96,9 +97,9 @@ Material:
     - _RECEIVE_SHADOWS_OFF: 0
     - _RampMapUOffset: 0
     - _RampMapVOffset: 0.5
-    - _RimDirectionLightContribution: 0.917
-    - _RimSoftness: 0.987
-    - _RimThreshold: 0.441
+    - _RimDirectionLightContribution: 0.2
+    - _RimSoftness: 1
+    - _RimThreshold: 0.2
     - _Shininess: 1
     - _Smoothness: 0.303
     - _SpaceScreenVariant: 0.5
@@ -112,14 +113,14 @@ Material:
     - _Surface: 0
     - _UseDepthShadow: 0
     - _UseDissolveEffect: 0
-    - _UseEmissionTex: 0
+    - _UseEmissionTex: 1
     - _UseHalfLambert: 1
     - _UseRadianceOcclusion: 0
     - _ZWrite: 1
     - _enum_diffuse: 0
     - _enum_env: 1
     - _enum_rim: 1
-    - _enum_specular: 3
+    - _enum_specular: 1
     - _group: 0
     - _group1: 1
     - _groupAdditionLight: 1
@@ -133,11 +134,11 @@ Material:
     - _groupShadowSetting: 1
     - _groupSpecular: 1
     m_Colors:
-    - _BaseColor: {r: 1.0000001, g: 1.0000001, b: 1.0000001, a: 1}
+    - _BaseColor: {r: 1.3350786, g: 1.3350786, b: 1.3350786, a: 1}
     - _DarkColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionChannel: {r: 0, g: 0, b: 1, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 0}
     - _HighColor: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _PBRMetallicChannel: {r: 1, g: 0, b: 0, a: 0}

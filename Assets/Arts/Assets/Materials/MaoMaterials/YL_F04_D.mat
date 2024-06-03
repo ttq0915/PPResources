@@ -13,8 +13,8 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _BLINNPHONG
+  - _CELLSHADING
   - _FRESNELRIM
-  - _RAMPSHADING
   - _RECEIVE_SHADOWS_OFF
   - _RENDERENVSETTING
   - _USEEMISSIONTEX
@@ -68,8 +68,8 @@ Material:
     m_Floats:
     - _BumpMapKeyword: 0
     - _BumpScale: 1
-    - _CELLSmoothing: 0.001
-    - _CELLThreshold: 0.5
+    - _CELLSmoothing: 0.3
+    - _CELLThreshold: 0.1
     - _CellBandSoftness: 0.001
     - _CellBands: 1
     - _ClearCoat: 0
@@ -99,9 +99,9 @@ Material:
     - _RECEIVE_SHADOWS_OFF: 0
     - _RampMapUOffset: 0
     - _RampMapVOffset: 0.5
-    - _RimDirectionLightContribution: 1
-    - _RimSoftness: 0.01
-    - _RimThreshold: 0.468
+    - _RimDirectionLightContribution: 0.2
+    - _RimSoftness: 1
+    - _RimThreshold: 0.2
     - _Shininess: 1
     - _Smoothness: 0
     - _SpaceScreenVariant: 0.5
@@ -119,7 +119,7 @@ Material:
     - _UseHalfLambert: 1
     - _UseRadianceOcclusion: 1
     - _ZWrite: 1
-    - _enum_diffuse: 1
+    - _enum_diffuse: 0
     - _enum_env: 1
     - _enum_rim: 1
     - _enum_specular: 3

@@ -12,8 +12,9 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _CELLSHADING
   - _FRESNELRIM
-  - _RAMPSHADING
+  - _GGX
   - _RECEIVE_SHADOWS_OFF
   - _RENDERENVSETTING
   - _USEEMISSIONTEX
@@ -67,8 +68,8 @@ Material:
     m_Floats:
     - _BumpMapKeyword: 0
     - _BumpScale: 1
-    - _CELLSmoothing: 0.001
-    - _CELLThreshold: 0.5
+    - _CELLSmoothing: 0.3
+    - _CELLThreshold: 0.1
     - _CellBandSoftness: 0.001
     - _CellBands: 1
     - _ClearCoat: 0
@@ -98,9 +99,9 @@ Material:
     - _RECEIVE_SHADOWS_OFF: 0
     - _RampMapUOffset: 0
     - _RampMapVOffset: 0.5
-    - _RimDirectionLightContribution: 0.982
-    - _RimSoftness: 0.047
-    - _RimThreshold: 0.437
+    - _RimDirectionLightContribution: 0.2
+    - _RimSoftness: 1
+    - _RimThreshold: 0.2
     - _Shininess: 1
     - _Smoothness: 0
     - _SpaceScreenVariant: 0.5
@@ -118,10 +119,10 @@ Material:
     - _UseHalfLambert: 1
     - _UseRadianceOcclusion: 1
     - _ZWrite: 1
-    - _enum_diffuse: 1
+    - _enum_diffuse: 0
     - _enum_env: 1
     - _enum_rim: 1
-    - _enum_specular: 0
+    - _enum_specular: 1
     - _group: 0
     - _group1: 1
     - _groupAdditionLight: 1
@@ -135,12 +136,12 @@ Material:
     - _groupShadowSetting: 1
     - _groupSpecular: 1
     m_Colors:
-    - _BaseColor: {r: 1.8880861, g: 1.8880861, b: 1.8880861, a: 1}
+    - _BaseColor: {r: 2.5207431, g: 2.5207431, b: 2.5207431, a: 1}
     - _BaseColor1: {r: 1, g: 1, b: 1, a: 1}
     - _DarkColor: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionChannel: {r: 0, g: 0, b: 1, a: 0}
-    - _EmissionColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 0}
     - _HighColor: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _PBRMetallicChannel: {r: 1, g: 0, b: 0, a: 0}
